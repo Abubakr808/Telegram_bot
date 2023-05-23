@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://codeguida.com/media/post_title/g3033.png">
+    <title> Java Script </title>
+</head>
+<style>
+    form{
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        margin: 200px auto;
+    }
+
+    input[type='text'],
+    input[type='email'],
+    input[type='file'],
+    button{
+        margin-bottom: 10px;
+        padding: 5px;
+        box-shadow: 1px 1px 20px 1px cornflowerblue ;
+        border-radius: 20px;
+    }
+
+
+    button{
+        background-color: cornflowerblue;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+        #succes{
+            background-color: #4caf50;
+            padding: 10px;
+            color: white;
+            z-index: 2;
+        }   
+
+        .logo{
+            font-size: 48px;
+            font-weight: 700;
+            color: cornflowerblue;
+            box-shadow: 1px 1px 100px 1px darkcyan;
+            margin-top: -450px;
+        }
+
+        .shadow{
+            color: rgba(0, 0, 255, 0);
+            box-shadow: 20px 0px 100px 20px darkcyan;
+            margin-top: 40%;
+        }
+</style>
+<body>
+
+    <!-- <form id="tg">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="number" placeholder="Number" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <button type="submit">Submit</button>
+    </form> -->
+    
+    <form id="tg"encttype="multipart/form-data">
+        <input type="file"name="document"required>
+        <button type="submit">Sumbit</button>
+    </form>
+
+<div id="success"></div>
+
+<div class="logo">Telegram_bot</div>
+<div class="shadow">..............................................................................................................................................................................................................................................................................................................................................</div>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main23.js"></script>
+</body>
+</html>
